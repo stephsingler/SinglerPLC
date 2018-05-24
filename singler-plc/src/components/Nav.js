@@ -6,7 +6,7 @@ const Nav = () => {
       <ul>
         <li>
           <a href="#home">
-            HOME
+            HOME 
           </a>
         </li>
         <li>

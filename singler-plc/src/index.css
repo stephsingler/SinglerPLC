@@ -13,28 +13,29 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
   display: flex;
   align-items: center;
+  justify-content: space-around;
   /*position: fixed;*/
 }
 h1 {
   color: #f2f2f2;
   font-family: "Times New Roman", serif;
   font-size: 80px;
-  padding-left: 40px;
   text-shadow: 2px 2px 4px black;
 }
 h1 span {
-  font-size: 30px;
+  font-size: 28px;
 }
 /*Nav*/
 .nav {
-  padding-left: 150px;
+  width: 600px;
 }
 .nav ul {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
 }
 .nav a {
-  margin-left: 15px;
+  padding-left: 15px;
   text-decoration: none;
   color: white;
   font-family: "Raleway", sans-serif;
@@ -130,7 +131,7 @@ h5 {
   height: auto;
   margin-left: 16%;
   margin-right: 15%;
-  border: 2px solid #C2AE52;
+  border: 1px solid #C2AE52;
 }
 .section-title {
   width: 100%;
@@ -159,15 +160,120 @@ h5 {
 /*Our Attorneys*/
 #our-attorneys {
   width: 100%;
-  height: 800px;
+  height: auto;
   background-color: /*#dcf6f8;*/ #E8F5F7;
   background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
   margin-top: -20px;
+  padding-bottom: 50px;
 }
 .attorney-title {
   text-align: center;
   display: flex;
   justify-content: center;
+  padding-top: 30px;
+}
+.attorney-info {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.info {
+  width: 280px;
+  height: auto;
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: /*#faf8f6;*/ #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  padding: 10px;
+  margin-top: 20px;
+}
+.info img {
+  width: 250px;
+  height: 250px;
+  border-radius: 3px;
+}
+.info hr {
+  background-color: gray;
+  width: 200px;
+  height: 1px;
+  margin-top: 0rem;
+}
+.info h4 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.info h6 {
+  font-weight: bold;
+  font-size: 16px;
+}
+.info p {
+  font-weight: bold;
+}
+.info button {
+  padding: 2px;
+  width: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid gray;
+}
+.info button:hover {
+  background-color: gray;
+}
+/*Contact*/
+#contact {
+  width: 100%;
+  height: auto;
+  border-bottom: 10px solid #C2AE52;
+  background-color: #faf8f6;
+  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+}
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-left: 28%;
+}
+
+.cta .cta-inner {
+  position: relative;
+  padding: 3rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cta .cta-inner:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+}
+/*Footer*/
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #0C0661;
+  background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.copy {
+  color: lightgray;
+}
+/*Bios*/
+.bio-background {
+  width: 100%;
+  height: auto;
+  padding: 35px;
+  background-color: #DCDCDC;
 }
 
 @media only screen and (max-width: 991px) {
@@ -184,6 +290,38 @@ h5 {
     margin-right: 0rem;
   }
 }
+@media only screen and (max-width: 946px) {
+  h1 {
+    font-size: 70px;
+  }
+  h1 span {
+    font-size: 20px;
+  }
+  .nav a {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  h1 {
+    font-size: 55px;
+  }
+  .nav {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cta{
+    margin-left: 1%;
+  }
+}
+@media only screen and (max-width: 710px) {
+  h1 {
+    display: none;
+  }
+  header {
+    height: 100px;
+  }
+}
 @media only screen and (max-width: 550px) {
   .section-title h4 {
     font-size: 20px;
@@ -193,19 +331,9 @@ h5 {
   }
 }
 @media only screen and (max-width: 500px) {
-  /*Header*/
-  .header {
-    height: 100px;
-  }
-  h1 {
-    display: none;
-  }
   /*Nav*/
-  .nav {
-    margin-left: -180px;
-  }
   .nav a {
-    font-size: 12px;
+    font-size: 11px;
     margin-left: 10px;
   }
   /*BackgroundPhoto*/

@@ -1,11 +1,10 @@
 import React from 'react';
-//data
-import ourFirm from '../data/our-firm';
 
-const OurFirm = () => {
+
+const OurFirm = (props) => {
   const renderFirm = () => {
     return (
-      ourFirm.map((section) => {
+      props.ourFirm.map((section) => {
         return (
           <div className="section-firm" key={section.id}>
             <div className="section-title">

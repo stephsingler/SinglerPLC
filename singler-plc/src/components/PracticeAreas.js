@@ -1,12 +1,10 @@
 import React from 'react';
-//data
-import practiceAreas from '../data/practice-areas';
-//UI
 
-const PracticeAreas = () => {
+
+const PracticeAreas = (props) => {
   const renderPracticeAreas = () => {
     return (
-      practiceAreas.map((area) => {
+      props.practiceAreas.map((area) => {
         return (
           <div className="description" key={area.id}>
             <h5>{area.title}</h5>
@@ -14,7 +12,7 @@ const PracticeAreas = () => {
           </div>
         );
       })
-    );
+    )
   }
   return (
     <div id="practice-areas">
