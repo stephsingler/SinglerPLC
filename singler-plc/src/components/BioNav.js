@@ -6,29 +6,29 @@ const Nav = () => {
     <div className="nav">
       <ul>
         <li>
-          <a href="#home">
+          <Link exact to="/">
             HOME
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#practice-areas">
+          <Link to="/">
             PRACTICE AREAS
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#our-firm">
+          <Link to="/">
             OUR FIRM
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#our-attorneys">
+          <Link to="/">
             ATTORNEY BIOS
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#contact">
+          <Link to="/">
             CONTACT
-          </a>
+          </Link>
         </li>
         <li>
           <Link to="/Links">

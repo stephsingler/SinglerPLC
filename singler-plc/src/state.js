@@ -63,6 +63,35 @@ const state = {
       title: "Mediation/Negotiation",
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     },
+  ],
+  ourAttorneys: [
+    {
+      name: "Peter A. Singler",
+      title: "Principal",
+      avatar: "https://i.imgur.com/EiYDEGC.jpg",
+      phone: "(707) 823-8719",
+      fax: "(707) 823-8737",
+      email: "pas@singler-law.com",
+      link: "/Pete"
+    },
+    {
+      name: "Theo S. Arnold",
+      title: "Associate",
+      avatar: "https://i.imgur.com/aNVCbtL.jpg",
+      phone: "(707) 823-8719",
+      fax: "(707) 823-8737",
+      email: "tsa@singler-law.com",
+      link: "/Theo"
+    },
+    {
+      name: "Nathan Verbiscar-Brown",
+      title: "Associate",
+      avatar: "https://i.imgur.com/FZ1Y8Ax.jpg?1",
+      phone: "(707) 823-8719",
+      fax: "(707) 823-8737",
+      email: "nvb@singler-law.com",
+      link: "/Nathan"
+    },
   ]
 }
 export default state;

@@ -3,16 +3,18 @@ import React from 'react';
 import BackgroundPhoto from './BackgroundPhoto';
 import PracticeAreasContainer from '../containers/PracticeAreasContainer';
 import OurFirmContainer from '../containers/OurFirmContainer';
-import Attorneys from './Attorneys';
+import OurAttorneysContainer from '../containers/OurAttorneysContainer';
 import Contact from './Contact';
+import Header from './Header';
 
 const Home = () => {
   return (
     <div id='home'>
+      <Header />
       <BackgroundPhoto />
       <PracticeAreasContainer />
       <OurFirmContainer />
-      <Attorneys />
+      <OurAttorneysContainer />
       <Contact />
     </div>
   );

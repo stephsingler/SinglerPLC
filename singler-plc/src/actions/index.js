@@ -11,3 +11,10 @@ export const loadPracticeAreas = (practiceAreas) => {
     payload: practiceAreas
   }
 };
+
+export const loadAttorneys = (ourAttorneys) => {
+  return {
+    type: "LOAD_ATTORNEYS",
+    payload: ourAttorneys
+  }
+};

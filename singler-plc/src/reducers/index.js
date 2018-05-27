@@ -14,6 +14,13 @@ const practiceAreas = (state = [], action) => {
   return state;
 }
 
+const ourAttorneys = (state = [], action) => {
+  if (action.type === "LOAD_ATTORNEYS") {
+    return action.payload;
+  }
+  return state;
+}
+
 const allReducers = combineReducers({
   ourFirm, practiceAreas
 });

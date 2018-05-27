@@ -4,7 +4,23 @@ import { FaEnvelope, FaFax, FaPhone } from 'react-icons/lib/fa';
 //React Router
 import { Link } from 'react-router-dom';
 
-const Attorneys = () => {
+const Attorneys = props => {
+  const renderAttorneys = () => {
+    return props.ourAttorneys.map((attorney) => {
+      return (
+        <div className="info">
+          <img src={attorney.avatar} />
+          <h4>{attorney.name}</h4>
+          <h6>{attorney.title}</h6>
+          <hr />
+          <p><FaPhone size={15} style={{color: '#0C0661'}}/>&nbsp; {attorney.phone}</p>
+          <p><FaFax size={15} style={{color: '#0C0661'}} />&nbsp; {attorney.fax}</p>
+          <p><FaEnvelope size={15} style={{color: '#0C0661'}} />&nbsp; {attorney.email}</p>
+          <button><Link to={attorney.link}>View Bio</Link></button>
+        </div>
+      );
+    })
+  }
   return (
     <div id="our-attorneys">
       <div className="attorney-title">
@@ -12,36 +28,7 @@ const Attorneys = () => {
         <h2>ATTORNEYS</h2>
       </div>
       <div className="attorney-info">
-        <div className="info">
-          <img src={"https://i.imgur.com/EiYDEGC.jpg"} />
-          <h4>Peter A. Singler</h4>
-          <h6>Principal</h6>
-          <hr />
-          <p><FaPhone size={15} style={{color: '#0C0661'}}/>&nbsp; (707) 823-8719</p>
-          <p><FaFax size={15} style={{color: '#0C0661'}} />&nbsp; (707) 823-8737</p>
-          <p><FaEnvelope size={15} style={{color: '#0C0661'}} />&nbsp; pas@singler-law.com</p>
-          <button><Link to="/Pete">View Bio</Link></button>
-        </div>
-        <div className="info">
-          <img src={"https://i.imgur.com/aNVCbtL.jpg"} />
-          <h4>Theo S. Arnold</h4>
-          <h6>Associate</h6>
-          <hr />
-          <p><FaPhone size={15} style={{color: '#0C0661'}}/>&nbsp; (707) 823-8719</p>
-          <p><FaFax size={15} style={{color: '#0C0661'}} />&nbsp; (707) 823-8737</p>
-          <p><FaEnvelope size={15} style={{color: '#0C0661'}} />&nbsp; tsa@singler-law.com</p>
-          <button><Link to="/Theo">View Bio</Link></button>
-        </div>
-        <div className="info">
-          <img src={"https://i.imgur.com/FZ1Y8Ax.jpg?1"} />
-          <h4>Nathan Verbiscar-Brown</h4>
-          <h6>Associate</h6>
-          <hr />
-          <p><FaPhone size={15} style={{color: '#0C0661'}}/>&nbsp; (707) 823-8719</p>
-          <p><FaFax size={15} style={{color: '#0C0661'}} />&nbsp; (707) 823-8737</p>
-          <p><FaEnvelope size={15} style={{color: '#0C0661'}} />&nbsp; nvb@singler-law.com</p>
-          <button><Link to="/Nathan">View Bio</Link></button>
-        </div>
+        {renderAttorneys()}
       </div>
     </div>
   );
