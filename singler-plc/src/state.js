@@ -92,6 +92,145 @@ const state = {
       email: "nvb@singler-law.com",
       link: "/Nathan"
     },
+  ],
+  testimonials: [
+    {
+      id: 0,
+      author1: 'CR Hall',
+      testimonial1: "Pete and his firm have been invaluable in navigating the relationship between our franchisee association (CDANA) and our franchisor (Culligan USA). I would highly recommend him as a franchise attorney and as a visionary regarding franchisee/franchisor interaction!",
+      title1: "Hall's Culligan Water",
+      author2: 'Paul Moorman',
+      testimonial2: "Pete has ably represented and guided the interests of our franchisee association through a series of tough negotiations and legal challenges. Pete knows his stuff and isn't afraid to use it!",
+      title2: "Culligan The Good Water Company",
+      author3: 'Mike Hebert',
+      testimonial3: "Pete's ability to work with over 400 independent dealers along with the negoitating team (with very large egos) was monumental in it's self. He was recognized and honored for his outstanding efforts at CDANA's Joint Annual Convention held in San Francisco in February 2006 with over 742 attendees.",
+      title3: "Quality Water Enterprises"
+    },
+    {
+      id: 1,
+      author1: "G David Reynolds III",
+      testimonial1: "Pete's level of expertise excels beyond anyone else we have dealt with. In dealing with our franchisor, he seemed to be able to figure out all the scenarios that would be coming our way. He always guided us in the right direction.We highly recommend his legal advice.",
+      title1: "Reynold's H2O Plus Inc.",
+      author2: 'Mark Smith',
+      testimonial2: "We retained Pete to get a different view of a very complex set of issues we were involved in. His thought process, situational critique and ultimate set of directional ideas were the most effective and progressive we had seen. I strongly endorse Pete.",
+      title2: "Midas of Richmond",
+      author3: 'Don Meredith',
+      testimonial3: "Pete is by far the most well-versed and intelligently learned legal counsel I've ever worked with. He excells in one particular aspect: future consideration. He seems to have an ability to anticipate future actions and reactions on the part of the other parties to the matters at hand. That capacity provides added insight and ability to take more intelligent avenues as a client. I recommend his legal advice and counsel.",
+      title3: "Meredith's Culligan Water"
+    }
+  ],
+  franchises: [
+    {
+      id: 0,
+      title: "Franchisee411",
+      link: "",
+      description: "An extensive information resource for Franchisees, Prospective Franchisees, and Franchisee Associations providing essential information and links to resources that can help them to successfully navigate their Franchise Relationship."
+    },
+    {
+      id: 1,
+      title: "The International Association of Franchisees and Dealers",
+      link: "https://www.franchise-info.ca/",
+      description: "An International trade association of franchisees and dealers."
+    },
+    {
+      id: 2,
+      title: "The American Assocaiation of Franchisees and Dealers",
+      link: "https://www.aafd.org/aboutus.php",
+      description: "The AAFD is a national non-profit trade association representing the rights and interests of franchisees and independent dealers throughout the United States."
+    },
+    {
+      id: 3,
+      title: "The American Franchisee Association",
+      link: "http://www.franchisee.org/",
+      description: "A national trade association of franchisees and dealers with over 16,000 members, ranging in size from one and two unit owners to larger multiple unit operators."
+    },
+    {
+      id: 4,
+      title: "California Restaurant Association",
+      link: "https://www.calrest.org/",
+      description: "The mission of the California Restaurant Association is to be the definitive voice of the California foodservice industry and to protect and promote its success. CRA serves as the indispensible resource for California restaurateurs."
+    },
+    {
+      id: 5,
+      title: "National Restaurant Association",
+      link: "https://www.restaurant.org/Home",
+      description: "The National Restaurant Association is a membership-based business association for the restaurant industry. With more than 37,000 members representing more than 175,000 restaurants, National Restaurant Association membership includes tableservice restaurants, quickservice outlets and cafeterias, as well as professionals and academic institutions associated with the industry."
+    }
+  ],
+  governments: [
+    {
+      id: 0,
+      title: "The U.S. Chamber of Commerce",
+      link: "https://www.uschamber.com/",
+      description: "The U.S. Chamber of Commerce is the world's largest business federation, representing nearly three million companies, 3,000 state and local chambers, 850 business associations and 87 American Chambers of Commerce abroad."
+    },
+    {
+      id: 1,
+      title: "The California Chamber of Commerce",
+      link: "https://www.calchamber.com/Pages/default.aspx",
+      description: ""
+    },
+    {
+      id: 2,
+      title: "The Federal Trade Commission",
+      link: "",
+      description: "Business Guidance"
+    },
+    {
+      id: 3,
+      title: "IRS Tax Info for Business",
+      link: "",
+      description: ""
+    },
+    {
+      id: 4,
+      title: "California State Government",
+      link: "http://www.ca.gov/",
+      description: ""
+    },
+    {
+      id: 5,
+      title: "California Courts",
+      link: "http://www.courts.ca.gov/",
+      description: ""
+    },
+    {
+      id: 6,
+      title: "California Secretary of State",
+      link: "http://www.ss.ca.gov/",
+      description: ""
+    }
+  ],
+  legal: [
+    {
+      id: 0,
+      title: "Martindale-Hubbell",
+      link: "https://www.martindale.com/",
+      description: "A research source for information about attorneys and law firms around the world."
+    },
+    {
+      id: 1,
+      title: "The State Bar of California",
+      link: "http://www.calbar.ca.gov/",
+      description: ""
+    },
+  ],
+  records: [
+    {
+      id: 0,
+      name: "Peter A. Singler",
+      link: "http://members.calbar.ca.gov/fal/Member/Detail/153922"
+    },
+    {
+      id: 1,
+      name: "Theo S. Arnold",
+      link: "http://members.calbar.ca.gov/fal/Member/Detail/279862"
+    },
+    {
+      id: 2,
+      name: "Nathan Verbiscar-Brown",
+      link: ""
+    }
   ]
 }
 export default state;

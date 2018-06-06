@@ -5,7 +5,7 @@ import PeteBio from './PeteBio';
 import TheoBio from './TheoBio';
 import NathanBio from './NathanBio';
 import Footer from './Footer';
-import Links from './Links';
+import LinksContainer from '../containers/LinksContainer';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
           <Route path = "/Pete" component = {PeteBio} />
           <Route path = "/Theo" component = {TheoBio} />
           <Route path = "/Nathan" component = {NathanBio} />
-          <Route path = "/Links" component = {Links} />
+          <Route path = "/Links" component = {LinksContainer} />
           <Footer />
         </div>
       </Router>
