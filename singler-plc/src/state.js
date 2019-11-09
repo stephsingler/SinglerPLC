@@ -75,15 +75,6 @@ const state = {
       link: "/Pete"
     },
     {
-      name: "Theo S. Arnold",
-      title: "Associate",
-      avatar: "https://i.imgur.com/aNVCbtL.jpg",
-      phone: "(707) 823-8719",
-      fax: "(707) 823-8737",
-      email: "tsa@singler-law.com",
-      link: "/Theo"
-    },
-    {
       name: "Nathan Verbiscar-Brown",
       title: "Associate",
       avatar: "https://i.imgur.com/FZ1Y8Ax.jpg?1",
@@ -220,11 +211,6 @@ const state = {
       id: 0,
       name: "Peter A. Singler",
       link: "http://members.calbar.ca.gov/fal/Member/Detail/153922"
-    },
-    {
-      id: 1,
-      name: "Theo S. Arnold",
-      link: "http://members.calbar.ca.gov/fal/Member/Detail/279862"
     },
     {
       id: 2,

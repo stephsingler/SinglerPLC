@@ -11,8 +11,11 @@ const Contact = () => {
               <div className="cta-inner text-center rounded">
                 <div className="mb-0">
                   <h4>Singler PLC</h4>
-                  <p>127 S. Main Street</p>
-                  <p>Sebastopol, CA 95472</p>
+                  <p>103 Johnson Street</p>
+                  <p>Windsor, CA 95492</p>
+                  <h6>Mailing Address</h6>
+                  <p>PO Box 2298</p>
+                  <p>Windsor, CA 95492</p>
                   <p><FaPhone size={15} style={{color: '#0C0661'}}/>&nbsp; (707) 823-8719</p>
                   <p><FaFax size={15} style={{color: '#0C0661'}} />&nbsp; (707) 823-8737</p><br/>
                   <h6>Franchise and
