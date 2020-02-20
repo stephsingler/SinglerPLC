@@ -63,7 +63,8 @@ h1 span {
 /*Contact Us */
 .contact-us {
   width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .contact-button {
   width: 140px;

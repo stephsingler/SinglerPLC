@@ -16,7 +16,7 @@ const Attorneys = props => {
           <p><FaPhone size={15} style={{color: '#0C0661'}}/>&nbsp; {attorney.phone}</p>
           <p><FaFax size={15} style={{color: '#0C0661'}} />&nbsp; {attorney.fax}</p>
           <p><FaEnvelope size={15} style={{color: '#0C0661'}} />&nbsp; {attorney.email}</p>
-          <button><Link to={attorney.link}>View Bio</Link></button>
+          <button><Link to={`/Bios/${attorney.id}`}>View Bio</Link></button>
         </div>
       );
     })

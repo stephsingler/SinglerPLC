@@ -66,22 +66,34 @@ const state = {
   ],
   ourAttorneys: [
     {
+      id: 0,
       name: "Peter A. Singler",
       title: "Principal",
       avatar: "https://i.imgur.com/EiYDEGC.jpg",
       phone: "(707) 823-8719",
       fax: "(707) 823-8737",
       email: "pas@singler-law.com",
-      link: "/Pete"
+      barLink: "http://members.calbar.ca.gov/fal/Member/Detail/153922",
+      bio: " Pete Singler represents businesses of all sizes, from sole  proprietorships to publicly traded companies. His personal expertise is in transactional matters, including entity formation, financing, real estate, negotiation and franchising work. He is one of the few business lawyers in the country who represents exclusively franchisees with regard to franchise matters. An Officer and Director of a multi-unit franchisee, Pete has a truly unique perspective regarding the changing relationships and dynamics of franchising. He also sits on the American Franchisee Association's Board of Directors, giving him a wide perspective on issues facing franchisees across the nation. Pete recently negotiated a new system-wide franchise agreement for Culligan franchisees which is being heralded as \"a model for other franchise systems.\" A licensed real estate broker, Pete offers clients expertise with regard to real estate acquisition, finance, and development. Pete also has extensive experience with \"accessibility\" and other ADA issues. He has been lecturing and advising franchisee associations and businesses on this subject since 1989. Pete was the only lawyer invited by the United States House of Representatives to testify in support of federal franchise legislation in oversight hearings before the Subcommittee on Administrative and Commercial laws in June 1999. He is a member of the American Bar Association's Forum on Franchising, the AFA's Legal Symposium Steering Committee and is an AFA Affiliate Member. A graduate of the University of Pennsylvania Law School, Pete also received formal business education from the Wharton School.",
+      barAdmissions: ["State Bar of California", "9th Circuit Court of Appeals", "U.S. District Courts"],
+      districts: ["Northern District of California", "Easter District of California", "Southern District of California"],
+      education: ["University of Pennsylvania Law School (JD - 1990)", "Pepperdine University (BA)"],
+      memberships: ["American Bar Association (ABA) -- Forum on Franchising", "Sonoma County Bar Association"]
     },
     {
+      id: 1,
       name: "Nathan Verbiscar-Brown",
       title: "Associate",
       avatar: "https://i.imgur.com/FZ1Y8Ax.jpg?1",
       phone: "(707) 823-8719",
       fax: "(707) 823-8737",
       email: "nvb@singler-law.com",
-      link: "/Nathan"
+      barLink: "",
+      bio: "Nathan Verbiscar-Brown represents clients in complex commercial litigation and business transactional matters.  His past work includes: breach of contract action by singer/songwriter against music manager, resulting in $5 million jury verdict for plaintiff; class action against nationwide retailer, resulting in $7.3 million settlement; breach of contract action by approximately 20 franchisees against franchisor, resulting in confidential settlement; and defending $30 million fraudulent transfer claim by the Government of the Republic of China, resulting in confidential settlement. Other matters include: breach of contract and tort actions by purchasers of small and medium sized businesses against sellers, and excessive force claims against law enforcement. Mr. Verbiscar-Brown received his Juris Doctorate from the University of California, Los Angeles, where he also received a Bachelor of Arts with Honors in Global Studies (Globalization), graduating cum laude.  Prior to law school, Mr. Verbiscar-Brown worked in the film and television industry. An active outdoorsman, Mr. Verbiscar-Brown enjoys swimming, bicycling, skiing, camping, and hiking with his dogs.  He is an Eagle Scout and a native son of Sonoma County, California.",
+      barAdmissions: [],
+      districts: [],
+      education: [],
+      memberships: []
     },
   ],
   testimonials: [
@@ -205,18 +217,6 @@ const state = {
       link: "http://www.calbar.ca.gov/",
       description: ""
     },
-  ],
-  records: [
-    {
-      id: 0,
-      name: "Peter A. Singler",
-      link: "http://members.calbar.ca.gov/fal/Member/Detail/153922"
-    },
-    {
-      id: 2,
-      name: "Nathan Verbiscar-Brown",
-      link: ""
-    }
   ]
 }
 export default state;
