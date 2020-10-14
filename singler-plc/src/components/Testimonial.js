@@ -26,11 +26,6 @@ const Testimonial = props => {
                 <h5>{testimonial.author2}</h5>
                 <h6>{testimonial.title2}</h6>
               </div>
-              <div className="single-testimonial">
-                "{testimonial.testimonial3}"<br/><br />
-                <h5>{testimonial.author3}</h5>
-                <h6>{testimonial.title3}</h6>
-              </div>
             </div>
           </div>
         );

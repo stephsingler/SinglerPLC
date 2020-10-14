@@ -32,13 +32,13 @@ const Links = props => {
       );
     })
   };
-  const renderRecords = () => {
-    return props.records.map((record) => {
-      return (
-        <li key={record.id}><a href={record.link}>{record.name}</a></li>
-      );
-    })
-  }
+  // const renderRecords = () => {
+  //   return props.records.map((record) => {
+  //     return (
+  //       <li key={record.id}><a href={record.link}>{record.name}</a></li>
+  //     );
+  //   })
+  // }
   return (
     <div className="links">
       <BioHeader />
@@ -53,8 +53,8 @@ const Links = props => {
           <ul>{renderGovernment()}</ul>
           <h4>Legal Resources</h4>
           <ul>{renderLegal()}</ul>
-          <h6>View Our Lawyer's CA Bar Records</h6>
-          <ul>{renderRecords()}</ul>
+          {/*<h6>View Our Lawyer's CA Bar Records</h6>*/}
+          {/*<ul>{renderRecords()}</ul>*/}
         </div>
       </div>
     </div>

@@ -99,15 +99,13 @@ const state = {
   testimonials: [
     {
       id: 0,
-      author1: 'CR Hall',
-      testimonial1: "Pete and his firm have been invaluable in navigating the relationship between our franchisee association (CDANA) and our franchisor (Culligan USA). I would highly recommend him as a franchise attorney and as a visionary regarding franchisee/franchisor interaction!",
-      title1: "Hall's Culligan Water",
-      author2: 'Paul Moorman',
-      testimonial2: "Pete has ably represented and guided the interests of our franchisee association through a series of tough negotiations and legal challenges. Pete knows his stuff and isn't afraid to use it!",
-      title2: "Culligan The Good Water Company",
-      author3: 'Mike Hebert',
-      testimonial3: "Pete's ability to work with over 400 independent dealers along with the negoitating team (with very large egos) was monumental in it's self. He was recognized and honored for his outstanding efforts at CDANA's Joint Annual Convention held in San Francisco in February 2006 with over 742 attendees.",
-      title3: "Quality Water Enterprises"
+      author1: 'Don Meredith',
+      testimonial1: "Pete is by far the most well-versed and intelligently learned legal counsel I've ever worked with. He excells in one particular aspect: future consideration. He seems to have an ability to anticipate future actions and reactions on the part of the other parties to the matters at hand. That capacity provides added insight and ability to take more intelligent avenues as a client. I recommend his legal advice and counsel.",
+      title1: "Meredith's Culligan Water",
+      author2: 'Gregory Lamson',
+      testimonial2: "Perfect Lawyer.\n" +
+          "We have been fortunate to be represented by Singler Law for over 20 years for all matters, including acquisitions, sales, employment issues, franchise matters, general operations, real estate and corporate governance. Singler Law has blessed our company with sound moral reasoning, positive effective communication and always brings impeccable character. Singler law’s direction, which they have given, has always benefited our company financially and morally. They have been very helpful in all aspects of our ever-changing business. Singler Law is very helpful with all of our business and personnel needs. Their representation over the years has always been superior to any other company we have been involved with. Their understanding and work ethic is far superior. We feel that our company would not be as successful, if we did not have Singler law in our corner. If your looking for a firm that goes the extra mile and pays careful attention to details along the way, you need not look any further.",
+      title2: "Lamson Investment Corp."
     },
     {
       id: 1,
@@ -117,9 +115,6 @@ const state = {
       author2: 'Mark Smith',
       testimonial2: "We retained Pete to get a different view of a very complex set of issues we were involved in. His thought process, situational critique and ultimate set of directional ideas were the most effective and progressive we had seen. I strongly endorse Pete.",
       title2: "Midas of Richmond",
-      author3: 'Don Meredith',
-      testimonial3: "Pete is by far the most well-versed and intelligently learned legal counsel I've ever worked with. He excells in one particular aspect: future consideration. He seems to have an ability to anticipate future actions and reactions on the part of the other parties to the matters at hand. That capacity provides added insight and ability to take more intelligent avenues as a client. I recommend his legal advice and counsel.",
-      title3: "Meredith's Culligan Water"
     }
   ],
   franchises: [
