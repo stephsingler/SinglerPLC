@@ -61,7 +61,7 @@ const state = {
     {
       id: 7,
       title: "Mediation/Negotiation",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      description: "When disputes arise, informal resolution is always preferable to ligation. A negotiated agreement costs far less, generally results in a better outcome, and avoids the significant time and aggravation of litigation. We have the breadth of experience necessary to serve as neutrals and advocates in disputes of all levels, whether between neighbors, large companies or system-wide franchise matters. This same skillset is equally useful in constructing deals to facilitate the growth of an enterprise. Whether you need an impartial third party or a zealous advocate, we have the experience and insight to help you accomplish your goals in the most cost effective manner."
     },
   ],
   ourAttorneys: [
