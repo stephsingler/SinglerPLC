@@ -9,7 +9,7 @@ const Attorneys = props => {
     return props.ourAttorneys.map((attorney) => {
       return (
         <div className="info">
-          <img src={attorney.avatar} />
+          <img src={attorney.avatar} alt="" />
           <h4>{attorney.name}</h4>
           <h6>{attorney.title}</h6>
           <hr />
