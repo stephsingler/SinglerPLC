@@ -18,10 +18,6 @@ const Contact = () => {
                   <p>Windsor, CA 95492</p>
                   <p><FaPhone size={15} style={{color: '#0C0661'}}/>&nbsp; (707) 823-8719</p>
                   <p><FaFax size={15} style={{color: '#0C0661'}} />&nbsp; (707) 823-8737</p><br/>
-                  <h6>Franchise and
-                    Distribution Law
-                    Experts
-                  </h6>
                 </div>
               </div>
             </div>
