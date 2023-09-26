@@ -13,7 +13,7 @@ const PracticeAreas = (props) => {
         );
       })
     )
-  }
+  };
   return (
     <div id="practice-areas">
       <div className="container-fluid">

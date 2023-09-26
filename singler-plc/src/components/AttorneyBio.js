@@ -21,51 +21,49 @@ const AttorneyBio = props => {
             <BioHeader />
             <div className="bio-background">
                 <div className="bio-header">
-                    <div className="bio-header-white">
-                        <div className="bio-header-blue">
-                            <img src={attorney.avatar} alt=""/>
-                            <div>
-                                <h2>{attorney.name}</h2>
-                                <h4>{attorney.title}</h4>
-                            </div>
-                        </div>
+                    <div className="name">
+                        <h2>{attorney.name}</h2>
+                        <h4>{attorney.title}</h4>
+                    </div>
+                    <img src={attorney.avatar} alt=""/>
+                    <div className="bio-contact">
+                        <h6>Contact</h6>
+                        <p>{`Phone: ${attorney.phone}`}</p>
+                        <p>{`Fax: ${attorney.fax}`}</p>
+                        <p>{`Email: ${attorney.email}`}</p>
                     </div>
                 </div>
                 <div className="bio-container">
                     <div className="bio">
                         <p>{attorney.bio}</p>
                     </div>
-                    <div className="edu-info">
-                        {attorney.barAdmissions.length > 0 &&
+                    { !!attorney.barAdmissions.length && (
+                        <div className="edu-info">
+                            {attorney.barAdmissions.length > 0 &&
                             <div>
                                 <h6>Bar Admissions</h6>
                                 <ul>{renderBarAdmissions()}</ul>
                             </div>
-                        }
-                        {attorney.districts.length > 0 &&
-                             <div>
-                                 {renderDistricts()}
-                             </div>
-                        }
-                        {attorney.education.length > 0 &&
+                            }
+                            {attorney.districts.length > 0 &&
+                            <div>
+                                {renderDistricts()}
+                            </div>
+                            }
+                            {attorney.education.length > 0 &&
                             <div>
                                 <h6>Education</h6>
                                 <ul>{renderEducation()}</ul>
                             </div>
-                        }
-                        {attorney.memberships.length > 0 &&
+                            }
+                            {attorney.memberships.length > 0 &&
                             <div>
                                 <h6>Memberships</h6>
                                 <ul>{renderMemberships()}</ul>
                             </div>
-                        }
-                        <div className="contact">
-                            <h6>{`Contact ${attorney.name}`}</h6>
-                            <p>{`Phone: ${attorney.phone}`}</p>
-                            <p>{`Fax: ${attorney.fax}`}</p>
-                            <p>{`Email: ${attorney.email}`}</p>
+                            }
                         </div>
-                    </div>
+                        )}
                 </div>
             </div>
         </div>

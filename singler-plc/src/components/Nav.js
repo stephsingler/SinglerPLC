@@ -22,7 +22,7 @@ const Nav = () => {
         </li>
         <li>
           <a href="#our-attorneys">
-            ATTORNEY BIOS
+            OUR ATTORNEYS
           </a>
         </li>
         <li>
