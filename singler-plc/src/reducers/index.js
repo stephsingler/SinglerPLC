@@ -1,11 +1,5 @@
 import { combineReducers } from 'redux';
 
-const ourFirm = (state = [], action) => {
-  if(action.type === "LOAD_FIRM") {
-    return action.payload;
-  }
-  return state;
-};
 
 const practiceAreas = (state = [], action) => {
   if (action.type === "LOAD_PRACTICE_AREAS") {
@@ -15,7 +9,7 @@ const practiceAreas = (state = [], action) => {
 };
 
 const allReducers = combineReducers({
-  ourFirm, practiceAreas
+  practiceAreas
 });
 
 export default allReducers;

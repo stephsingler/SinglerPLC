@@ -16,11 +16,6 @@ const Nav = () => {
           </a>
         </li>
         <li>
-          <a href="#our-firm">
-            OUR FIRM
-          </a>
-        </li>
-        <li>
           <a href="#our-attorneys">
             OUR ATTORNEYS
           </a>
@@ -31,8 +26,8 @@ const Nav = () => {
           </a>
         </li>
         <li>
-          <Link to="/Links">
-            LINKS
+          <Link to="/Resources">
+            RESOURCES
           </Link>
         </li>
       </ul>

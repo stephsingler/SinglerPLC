@@ -1,27 +1,4 @@
 const state = {
-  ourFirm: [
-    {
-      id: 0,
-      title: "OUR FIRM",
-      description: "Pete Singler founded our firm over 20 years ago. From its inception, the firm's focus has been on franchising. We exclusively represent franchisees and franchisee associations in franchise matters. In other words, we do not represent franchisors. This exclusivity illustrates our strong loyalty to the franchisee community and allows us to avoid the conflicts that arise from representing both sides of the industry. Indeed, our firm has become nationally recognized as one of the preeminent franchisee law firms.",
-      description2: "While most of our clients are franchisees and franchisee association, we also represent individuals and businesses. After all, franchisees are businesses, so the firm is necessarily well grounded in all aspects of business law.",
-      description3: "  Because our client base is so diverse and wide-spread, we have the luxury of locating our offices wherever we want. We have chosen West Sonoma County, just North of San Francisco, because of its low-key atmosphere and aesthetic qualities."
-    },
-    {
-      id: 1,
-      title: "OUR PHILOSOPHY",
-      description: "'Continuing a tradition of excellence.'' This is not a motto, but a commitment to each of our clients. Living up to this commitment requires that each lawyer and member of our support staff must maintain the highest level of personal and professional integrity, credibility and reliability.",
-      description2: "Many law firms, and lawyers in general, are perceived as being unresponsive, forgetting that they work for the client. We understand that we are in the service business. To effectively serve our clients requires that we generate incomparable work in a timely and courteous manner. We continually strive to do just that. We want to provide a level of service that is a model for any business, not just the legal profession. ",
-      description3: "Above all else, we value long-term relationships with our clients. We appreciate the value of close and attentive client contact. We strive to work together with our clients, capitalizing on our collective strengths and experiences to maximize our clients' opportunities and gains. We also strive to learn the fundamentals of clients' business operations. This allows us to complement operations by providing realistic solutions to everyday business issues and help our clients take advantage of each business and financial opportunity available to them. We are also committed to providing sound, cost-effective advice to help our clients navigate through the myriad of regulations and potential civil liabilities which detract from the real business of doing business."
-    },
-    {
-      id: 2,
-      title: "WHAT SEPARATES US FROM THE REST",
-      description: "Integrity, credibility and responsiveness are essential qualities which every lawyer and support staff at Singler PLC must possess. The firm has gained national recognition and immense client loyalty because of these traits. We provide our clients with incomparable legal services and the quality of our work matches or exceeds that of large 'blue chip' firms. However, we have done away with big firm politics and the stuffy atmosphere. This enhances our ability to really know our clients and better deal with their legal and business needs and aspirations. ",
-      description2: "We are business people, and our business is the law. To properly serve our clients and retain their loyalty, we continually provide value relative to the amount of fees we charge. Above all else, we generate an incomparable product in a timely manner. We make sure that clients are always kept informed and we respond promptly to all client inquiries.",
-      description3: ""
-    }
-  ],
   practiceAreas: [
     {
       id: 0,
@@ -67,34 +44,63 @@ const state = {
   ourAttorneys: [
     {
       id: 0,
-      name: "Peter A. Singler",
-      title: "Principal",
+      name: "Pete Singler",
+      position: "Primary Principal / Managing Attorney",
       avatar: "https://i.imgur.com/EiYDEGC.jpg",
-      phone: "(707) 823-8719",
-      fax: "(707) 823-8737",
-      email: "pas@singler-law.com",
-      barLink: "http://members.calbar.ca.gov/fal/Member/Detail/153922",
-      bio: " Pete Singler represents businesses of all sizes, from sole  proprietorships to publicly traded companies. His personal expertise is in transactional matters, including entity formation, financing, real estate, negotiation and franchising work. He is one of the few business lawyers in the country who represents exclusively franchisees with regard to franchise matters. An Officer and Director of a multi-unit franchisee, Pete has a truly unique perspective regarding the changing relationships and dynamics of franchising. He also sits on the American Franchisee Association's Board of Directors, giving him a wide perspective on issues facing franchisees across the nation. Pete recently negotiated a new system-wide franchise agreement for Culligan franchisees which is being heralded as \"a model for other franchise systems.\" A licensed real estate broker, Pete offers clients expertise with regard to real estate acquisition, finance, and development. Pete also has extensive experience with \"accessibility\" and other ADA issues. He has been lecturing and advising franchisee associations and businesses on this subject since 1989. Pete was the only lawyer invited by the United States House of Representatives to testify in support of federal franchise legislation in oversight hearings before the Subcommittee on Administrative and Commercial laws in June 1999. He is a member of the American Bar Association's Forum on Franchising, the AFA's Legal Symposium Steering Committee and is an AFA Affiliate Member. A graduate of the University of Pennsylvania Law School, Pete also received formal business education from the Wharton School.",
-      barAdmissions: ["State Bar of California", "9th Circuit Court of Appeals", "U.S. District Courts"],
-      districts: ["Northern District of California", "Easter District of California", "Southern District of California"],
-      education: ["University of Pennsylvania Law School (JD - 1990)", "Pepperdine University (BA)"],
-      memberships: ["American Bar Association (ABA) -- Forum on Franchising", "Sonoma County Bar Association"]
+      bio: "Pete Singler is recognized as one of the country’s top franchise lawyers, devoting 35 years to representing franchisee associations, franchisees and small business owners.  He is member of Franchise Times’s “Hall of Fame”, a perennial “Legal Eagle” and a Martindale-Hubbell Client Distinction Award recipient (awarded to less than 1% of all lawyers). Above all, Pete values long-term relationships with his clients and helping them achieve long-term success.\n" +
+          "\n" +
+          "As summed up by a client, Pete is the “Perfect Lawyer. . .  Our company would not be as successful as it is without Pete guiding us and being in our corner.”\n" +
+          "\n" +
+          "Pete represents businesses of all sizes in virtually all industries, from sole proprietorships to publicly-traded companies. He is one of the few business lawyers in the country who represents exclusively franchisees regarding franchise matters.  Pete served as an Officer and Director of a multi-unit franchisee, giving him a truly unique perspective regarding the changing relationships and dynamics of franchising. He served as the Chairman of the American Franchisee Association's Board of Directors, giving him a wide perspective on issues facing franchisees across the nation. \n" +
+          "\n" +
+          "He has successfully negotiated several system-wide franchise agreements, always with the aim to foster mutually beneficial relationships so that franchisees and their franchisors can make the most of the system, for all concerned.   His work with Culligan franchisees was heralded as \"a model for other franchise systems.\" A licensed real estate broker and premium vineyard owner, Pete offers clients expertise regarding real estate acquisition, finance, and development, as well as counsel regarding the intricacies of winery and vineyard management. Pete also has extensive experience with \"accessibility\" and other ADA issues. He has been lecturing and advising businesses on this subject since 1990, assisting business owners in resolving hundreds of cases. Pete was the only lawyer invited by the United States House of Representatives to testify in support of federal franchise legislation before the Subcommittee on Administrative and Commercial laws in June 1999. \n" +
+          "\n" +
+          "Pete also represents multiple churches and non-profits, as a means of “giving back” to the community.\n" +
+          "\n" +
+          "A graduate of the University of Pennsylvania Law School, Pete also received formal business education from the Wharton School.\n",
+      admissions: "California (#152922), Texas (#2414568)",
+      education: "University of Pennsylvania Law School / Wharton (J.D. 1990); Pepperdine University (B.A. Political Science, B.A. Philosophy, Outstanding Graduate, Humanities, 1982)",
+      practiceAreas: "Business Advancement and Strategic Planning, Franchise & Distribution, Restaurant, Entity Formation / Structuring, Real Estate / Leasing, Construction, Finance, Sales and Acquisitions, Negotiations / Mediation, Winery / Vineyard Management, Church & Non-Profit Organizations",
+      significantAwards: "Franchise Times Halls of Fame, Martindale-Hubbell Distinguished Client"
     },
     {
       id: 1,
-      name: "Nathan Verbiscar-Brown",
-      title: "Associate",
-      avatar: "https://i.imgur.com/FZ1Y8Ax.jpg?1",
-      phone: "(707) 823-8719",
-      fax: "(707) 823-8737",
-      email: "nvb@singler-law.com",
-      barLink: "",
-      bio: "Nathan Verbiscar-Brown represents clients in complex commercial litigation and business transactional matters.  His past work includes: breach of contract action by singer/songwriter against music manager, resulting in $5 million jury verdict for plaintiff; class action against nationwide retailer, resulting in $7.3 million settlement; breach of contract action by approximately 20 franchisees against franchisor, resulting in confidential settlement; and defending $30 million fraudulent transfer claim by the Government of the Republic of China, resulting in confidential settlement. Other matters include: breach of contract and tort actions by purchasers of small and medium sized businesses against sellers, and excessive force claims against law enforcement. Mr. Verbiscar-Brown received his Juris Doctorate from the University of California, Los Angeles, where he also received a Bachelor of Arts with Honors in Global Studies (Globalization), graduating cum laude.  Prior to law school, Mr. Verbiscar-Brown worked in the film and television industry. An active outdoorsman, Mr. Verbiscar-Brown enjoys swimming, bicycling, skiing, camping, and hiking with his dogs.  He is an Eagle Scout and a native son of Sonoma County, California.",
-      barAdmissions: [],
-      districts: [],
-      education: [],
-      memberships: []
+      name: "Thia Brooks",
+      position: "Office Manager / Transactional support and Client Relations",
+      avatar: "",
+      bio: "Thia Brooks has been the heartbeat of Singler, PLC since 2007.   She is committed to\n" +
+          "improving and adopting new policies and administrative systems that enhance the company and\n" +
+          "that provide excellent customer service to our clients. Thia’s day-to-day duties include office administration & management, as well as maintaining financials and client billing. She is\n" +
+          "available to assist you with any questions you may have.\n" +
+          "\n" +
+          "When not at work, Thia enjoys boating, traveling, hiking and spending time with family and\n" +
+          "Friends.\n",
     },
+    {
+      id: 2,
+      name: "Neema P. Desai",
+      position: "Of Counsel",
+      avatar: "",
+      bio: "Neema P. Desai has a strong background in civil litigation and business counseling, with a mind towards anticipating, preventing and resolving disputes in a cost-effective manner.  She also has a deep understanding of healthcare law, wellness regulations, and business strategy, having worked at the intersection of law and the wellness industry.  Neema advises clients with an entrepreneurial perspective, having founded and serving as CEO of Kinnext, LLC, an online health and wellness platform.\n" +
+          "Neema is known for her commitment to client advocacy, attention to detail, and ability to handle high-stakes legal matters with professionalism and integrity.\n",
+      admissions: "Texas (#24067575), California (#262755), Illinois (#6294954), Washington (#43707)",
+      education: "John Marshall School of Law (J.D. 2007), Cal State Fullerton (B.A. Political Science, 2000)",
+      practiceAreas: "Commercial Litigation, Contracts, Real Estate, Healthcare/Wellness",
+      languages: "English, Gujarati, Hindi"
+    },
+    {
+      id: 3,
+      name: "Laura L. Feil",
+      position: "Paralegal",
+      avatar: "",
+      bio: "Laura L. Feil combines her experience as a Colombian lawyer with an entrepreneurial mindset and enthusiasm for business law.  Laura’s unique background allows her to approach legal challenges with precision, creativity, and practical insights. \n" +
+          "A dedicated mother who brings to our practice valuable bilingual capabilities and cross-cultural knowledge. She excels at supporting our team and clients with diverse legal matters, leveraging her international legal education and entrepreneurial instincts to deliver exceptional service. Laura is a native Spanish speaker, fully fluent and capable of drafting, negotiating and translating high-level business and legal documents, expanding our firm’s capabilities to handle international transactions and serving native Spanish-speaking clients. \n" +
+          "Laura embodies our firm’s commitment to excellence through her attention to detail, integrity, dedication, and responsive focus on our client’s needs.\n",
+      admissions: "Abogada (Lawyer), Colombia",
+      education: "Universidad Santo Tomás, Bucaramanga, Colombia; Business Marketing Certificate, Santa Rosa Junior College; Business Entrepreneurship Certificate, Santa Rosa Junior College",
+      practiceAreas: "Assists with all practice areas, with emphasis on litigation, trademark, transactions with involving Latin-American countries / constituents",
+      languages: "Spanish, English"
+    }
   ],
   testimonials: [
     {

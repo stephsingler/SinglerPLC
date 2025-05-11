@@ -1,7 +1,7 @@
 import React from 'react';
 import BioHeader from './BioHeader';
 
-const Links = props => {
+const Resources = props => {
   const renderFranchise = () => {
     return props.franchises.map((franchise) => {
       return (
@@ -60,4 +60,4 @@ const Links = props => {
     </div>
   );
 };
-export default Links;
+export default Resources;

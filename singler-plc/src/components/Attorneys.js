@@ -25,7 +25,7 @@ const Attorneys = props => {
     <div id="our-attorneys">
       <div className="attorney-title">
         <h2><span>OUR</span></h2> &nbsp; &nbsp;
-        <h2>ATTORNEYS</h2>
+        <h2>TEAM</h2>
       </div>
       <div className="attorney-info">
         {renderAttorneys()}
