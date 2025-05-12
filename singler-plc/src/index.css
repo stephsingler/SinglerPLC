@@ -123,6 +123,7 @@ h1 span {
   height: auto;
   background-color: #e9f1f7;
   background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  padding-top: 50px;
 }
 .blue-box {
   height: auto;
@@ -153,6 +154,7 @@ h6 {
   column-gap: 30px;
   height: auto;
   padding-bottom: 30px;
+  padding-top: 20px;
   background-color: #faf8f6;
   background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
   display: flex;
@@ -174,6 +176,18 @@ h5 {
   font-weight: 500;
   font-family: "Raleway", sans-serif;
   line-height: 1.4em;
+}
+
+#practice-areas .testimonial {
+  background-color: #e9f1f7;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#practice-areas .testimonial > p {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: bold;
 }
 /*Our Firm*/
 #our-firm {
