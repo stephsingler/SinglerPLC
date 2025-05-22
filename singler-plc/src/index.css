@@ -6,15 +6,14 @@ body {
 /*Header*/
 .header {
   width: 100%;
-  height: 150px;
-  border-bottom: 4px solid #C2AE52;
-  border-top: 4px solid #C2AE52;
+  height: 125px;
+  border-bottom: 2px solid #faf8f6;;
+  border-top: 2px solid #faf8f6;;
   background-color: #0C0661;
   background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /*position: fixed;*/
 }
 .header a {
   color: #f2f2f2;
@@ -59,7 +58,7 @@ h1 span {
 }
 .background-photo img {
   width: 33.33%;
-  height: 550px;
+  height: 525px;
 }
 /*Contact Us */
 .contact-us {
@@ -84,39 +83,25 @@ h1 span {
   font-size: 15px;
   font-weight: bold;
 }
-/*Testimonials*/
-.testimonial-background {
+/*Testimonial*/
+div.homepage-testimonial {
   width: 100%;
-  height: auto;
-  padding-top: 8px;
-  padding-bottom: 35px;
   background-color: #faf8f6;
   background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.testimonial-container {
+.homepage-testimonial p {
+  width: 40%;
   text-align: center;
-  margin-top: 2%;
-  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+}
+.homepage-testimonial span {
   font-size: 16px;
-  font-weight: bold;
-  color: #200000;
-  line-height: 1.4em;
-  text-shadow: 1px 1px 2px #d8d8d8;
-}
-.single-testimonial {
-  margin-left: 25px;
-  margin-right: 25px;
-  background-color: #ffffff;
-  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
-  border-radius: 5px;
-  padding: 6px;
-}
-.single-testimonial h5 {
-  font-family: "Open Sans", serif;
-  font-weight: bold;
-  font-size: 14px;
-  color: #180000;
-  text-shadow: 2px 2px 4px lightgray;
 }
 /*PracticeAreas*/
 #practice-areas {
