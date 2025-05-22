@@ -46,7 +46,15 @@ const state = {
       id: 5,
       title: "Real Estate / Construction",
       description: "We offer clients a wide range of services relating to real estate matters. These include: drafting and negotiating commercial leases (for both landlords and tenants); financing and acquisition; development and construction (for owners, contractors and design professionals); Foreclosure (judicial and non-judicial); Mechanic’s lien issues; and representing Contractors and Design Professionals before regulatory bodies, such as the CSLB.​​",
-      testimonial: ""
+      testimonial: "Over the past 25 years, I've had the pleasure of working with Pete in representing two different churches. Throughout various complex situations—from challenging land use issues and significant church financing to establishing and incorporating a new church—Pete has consistently provided outstanding guidance and support.\n" +
+          "\n" +
+          "Pete's extensive knowledge and expertise were instrumental during a particularly challenging land use issue, where his efforts led to a favorable ruling that literally saved our entire project. As a result, we were able to successfully construct a remarkable campus, enabling the church to thrive and grow to a congregation of over 2,000 members.\n" +
+          "\n" +
+          "Additionally, Pete skillfully guided us through a substantial church bond issuance, ensuring a smooth and successful outcome.\n" +
+          "\n" +
+          "I cannot thank Pete enough for his dedication, professionalism, and the exceptional ease of working with him. I confidently and highly recommend Pete and his firm for any church-related legal matters you may encounter.\n" +
+          "\n" +
+          "Jim McKee"
     },
     {
       id: 6,

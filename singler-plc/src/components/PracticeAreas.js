@@ -1,20 +1,41 @@
 import React from 'react';
 import state from '../state';
 import Header from "./Header";
-import Footer from "./Footer";
+import { useState } from "react";
+import {FaPlus} from "react-icons/lib/fa";
 
 
 const PracticeAreas = () => {
+  const [selected, setSelected] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = (e, id) => {
+      if (e.target) {
+          setSelected(id === selected ? null : id);
+      }
+    };
   const renderPracticeAreas = () => {
     return (
       state.practiceAreas.map((area) => {
         return (
           <div className="description" key={area.id}>
-            <h5>{area.title}</h5>
-            <p>{area.description}</p>
-            <div className="testimonial">
-                <p>{area.testimonial}</p>
-            </div>
+              <div className="area" onClick={e => {
+                  setSelected(area.id );
+                  setIsOpen (!isOpen);
+              }}>
+                  <h5>{area.title}</h5>
+                  <FaPlus/>
+              </div>
+
+              { selected === area.id && isOpen &&
+                  <div className="practice-info">
+                      <p>{area.description}</p>
+                      {area.testimonial && (
+                          <div className="testimonial">
+                              <p>{area.testimonial}</p>
+                          </div>
+                      )}
+                  </div>
+              }
           </div>
         );
       })
@@ -24,21 +45,14 @@ const PracticeAreas = () => {
       <section>
           <Header/>
           <div id="practice-areas">
-              <div className="container-fluid">
-                  <div className="row">
-                      <div className="col-xs-12 col-md-4 mx-auto blue-box">
-                          <h2><span>PRACTICE</span></h2>
-                          <h2>AREAS</h2>
-                          <h6>National in Scope with Personal Service</h6>
-                          <img src="https://i.imgur.com/aUc3UzT.jpg" alt="" />
-                      </div>
-                      <div className="col-xs-12 col-md-8 mx-auto beige-box">
+              <div>
+                  <div>
+                      <div className="beige-box">
                           {renderPracticeAreas()}
                       </div>
                   </div>
               </div>
           </div>
-          <Footer/>
       </section>
   );
 };

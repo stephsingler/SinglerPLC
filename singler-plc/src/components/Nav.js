@@ -11,22 +11,22 @@ const Nav = () => {
           </Link>
         </li>
         <li>
-          <Link to ="/Areas">
+          <Link to ="/practice-areas">
             PRACTICE AREAS
           </Link>
         </li>
         <li>
-          <Link to="/Team">
+          <Link to="/our-team">
             OUR TEAM
           </Link>
         </li>
         <li>
-          <Link to="/Contact">
+          <Link to="/contact">
             CONTACT
           </Link>
         </li>
         <li>
-          <Link to="/Resources">
+          <Link to="/resources">
             RESOURCES
           </Link>
         </li>
