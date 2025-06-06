@@ -25,11 +25,11 @@ const Nav = () => {
             CONTACT
           </Link>
         </li>
-        <li>
-          <Link to="/resources">
-            RESOURCES
-          </Link>
-        </li>
+        {/*<li>*/}
+        {/*  <Link to="/resources">*/}
+        {/*    RESOURCES*/}
+        {/*  </Link>*/}
+        {/*</li>*/}
       </ul>
     </div>
   );

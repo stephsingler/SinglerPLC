@@ -129,7 +129,7 @@ const state = {
       id: 0,
       name: "Pete Singler",
       position: "Primary Principal / Managing Attorney",
-      avatar: "https://i.imgur.com/EiYDEGC.jpg",
+      avatar: "../images/pete.jpg",
       bio: "Pete Singler is recognized as one of the country’s top franchise lawyers, devoting 35 years to representing franchisee associations, franchisees and small business owners.  He is member of Franchise Times’s “Hall of Fame”, a perennial “Legal Eagle” and a Martindale-Hubbell Client Distinction Award recipient (awarded to less than 1% of all lawyers). Above all, Pete values long-term relationships with his clients and helping them achieve long-term success.\n" +
           "\n" +
           "As summed up by a client, Pete is the “Perfect Lawyer. . .  Our company would not be as successful as it is without Pete guiding us and being in our corner.”\n" +

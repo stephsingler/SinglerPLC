@@ -1,5 +1,5 @@
 import React from 'react';
-import BioHeader from './BioHeader';
+import Header from './Header';
 
 const Resources = props => {
   const renderFranchise = () => {
@@ -41,7 +41,7 @@ const Resources = props => {
   // }
   return (
     <div className="links">
-      <BioHeader />
+      <Header />
       <h2>Important Information from other Sources</h2>
       <div className="link-info">
         <div>

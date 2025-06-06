@@ -45,6 +45,10 @@ const PracticeAreas = () => {
       <section>
           <Header/>
           <div id="practice-areas">
+              <div className="attorney-title">
+                  <h2><span>PRACTICE</span></h2> &nbsp; &nbsp;
+                  <h2>AREAS</h2>
+              </div>
               <div>
                   <div>
                       <div className="beige-box">

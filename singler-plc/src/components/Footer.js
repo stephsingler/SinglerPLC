@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer">
         <div>
             <p><FaPhone size={20} style={{color: '#ffffff'}}/>&nbsp; (707) 823-8719</p>
-            <a href="mailto:llf@singler-law.com"><FaEnvelope size={20} style={{color: '#ffffff'}} />&nbsp; info@singler-law.com</a>
+            <a href="mailto:info@singler-law.com"><FaEnvelope size={20} style={{color: '#ffffff'}} />&nbsp; info@singler-law.com</a>
         </div>
       <p className="copy">Singler Professional Law Corp. &copy; 2025</p>
     </div>
