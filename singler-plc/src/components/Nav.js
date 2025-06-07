@@ -20,11 +20,6 @@ const Nav = () => {
             OUR TEAM
           </Link>
         </li>
-        <li>
-          <Link to="/contact">
-            CONTACT
-          </Link>
-        </li>
         {/*<li>*/}
         {/*  <Link to="/resources">*/}
         {/*    RESOURCES*/}

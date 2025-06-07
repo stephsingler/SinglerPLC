@@ -9,8 +9,7 @@ body {
   height: 125px;
   border-bottom: 2px solid #faf8f6;;
   border-top: 2px solid #faf8f6;;
-  background-color: #0C0661;
-  background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+  background-color: #060541;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -183,24 +182,6 @@ div.practice-info {
   font-weight: 600;
 }
 
-.section-title {
-  width: 100%;
-  height: 50px;
-  background-color: #0c0661;
-  background-image: url("https://www.transparenttextures.com/patterns/classy-fabric.png");
-  text-align: center;
-  border-bottom: 3px solid #C2AE52;
-  border-top: 3px solid #C2AE52;
-  margin-top: 4px;
-}
-.section-title h4 {
-  padding-top: 6px;
-  font-size: 26px;
-  font-family: "Raleway", sans-serif;
-  color: #f2f2f2;
-  text-shadow: 2px 2px 4px black;
-}
-
 /*Our Attorneys*/
 #our-attorneys {
   width: 100%;
@@ -211,13 +192,12 @@ div.practice-info {
 
 #our-attorneys .info {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .info > img {
   margin-right: 20px;
   width: 250px;
-  max-height: 350px;
   height: fit-content;
 }
 .attorney-title {
@@ -249,37 +229,6 @@ div.view-bio  {
   margin-bottom: 0px;
 }
 
-/*Contact*/
-#contact {
-  width: 100%;
-  height: auto;
-  border-bottom: 10px solid #C2AE52;
-  background-color: #faf8f6;
-  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
-}
-.cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  /*margin-left: 5%;*/
-}
-
-.cta .cta-inner {
-  position: relative;
-  padding: 3rem;
-  margin: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.85);
-}
-
-.cta .cta-inner:before {
-  border-radius: 0.5rem;
-  content: '';
-  position: absolute;
-  top: -0.5rem;
-  bottom: -0.5rem;
-  left: -0.5rem;
-  right: -0.5rem;
-  border: 0.25rem solid rgba(255, 255, 255, 0.85);
-}
 /*Footer*/
 .footer {
   width: 100%;
@@ -306,183 +255,89 @@ div.view-bio  {
 .copy {
   color: lightgray;
 }
-/*Bios*/
-.bio-background {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  padding: 50px;
-  /*background-color: #dcdcdc;
-  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");*/
-  background-color: #ffffff;
-  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
-  border-bottom: 10px solid #C2AE52;
-}
-.bio-header {
-  display: flex;
-  margin-bottom: 30px;
-  margin-top: 50px;
-}
-.bio-header .name {
-  background-color: #e9f1f7;
-  background-image: url(https://www.transparenttextures.com/patterns/beige-paper.png);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 285px;
-}
-.bio-header img {
-  width: 250px;
-  height: 250px;
-}
-.bio-header .bio-contact {
-  background-color: #e9f1f7;
-  background-image: url(https://www.transparenttextures.com/patterns/beige-paper.png);
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 285px;
-}
-.bio-contact h6 {
-  text-align: center;
-  font-weight: bold;
-  font-style: normal;
-}
 
-.bio {
-  width: 700px;
-  height: fit-content;
-  padding: 20px;
-  background-color: #ffffff;
-  background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
-  border-radius: 4px;
-  box-shadow: inset 0 0 10px #000000;
-}
-.bio-container {
-  padding: 25px;
-  border-radius: 4px;
-  display: flex;
-  justify-content: flex-start;
-  column-gap: 25px;
-}
-.edu-info {
-  width: 300px;
-  height: auto;
-  padding: 20px;
-  background-color: #ffffff;
-  float: right;
-  border-radius: 4px;
-  box-shadow: inset 0 0 10px #000000;
-}
-.edu-info h6 {
-  text-align: center;
-  font-weight: bold;
-  font-style: normal;
-}
-.edu-info p {
-  font-family: "Raleway", sans-serif;
-}
-.bio p {
-  line-height: 1.5em;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-}
-/*Links*/
-.links {
-  border-bottom: 10px solid #C2AE52;
-  background-color: #ffffff;
-  background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
-}
-.links h2 {
-  margin-top: 20px;
-  text-align: center;
-}
-.link-info {
-  width: 100%;
-  padding: 35px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.link-info div {
-  width: 480px;
-  margin: 10px;
-}
-.link-info p {
-  font-family: "Raleway", sans-serif;
-}
-@media only screen and (max-width: 991px) {
-  /*PracticeAreas*/
-  .blue-box {
-    height: 100px;
+/*MOBILE*/
+
+@media only screen and (max-width: 430px) {
+  /*HEADER/NAV*/
+  .header > h1 a {
+    font-size: 40px;
   }
-  h2 {
-    font-size: 26px;
-  }
-  /*OurFirm*/
-  .about-us {
-    margin-left: 0rem;
-    margin-right: 0rem;
-  }
-}
-@media only screen and (max-width: 946px) {
   h1 {
-    font-size: 70px;
+    font-size: 20px;
   }
   h1 span {
-    font-size: 20px;
-  }
-  .nav a {
-    font-size: 13px;
-  }
-}
-@media only screen and (max-width: 850px) {
-  h1 {
-    font-size: 55px;
-  }
-  .nav {
-    width: 500px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  .cta{
-    margin-left: 1%;
-  }
-}
-@media only screen and (max-width: 710px) {
-  h1 {
-    display: none;
-  }
-  header {
-    height: 100px;
-  }
-}
-@media only screen and (max-width: 550px) {
-  .section-title h4 {
-    font-size: 20px;
-  }
-  .section-firm p {
-    font-size: 16px;
-  }
-}
-@media only screen and (max-width: 500px) {
-  /*Nav*/
-  .nav a {
-    font-size: 11px;
-    margin-left: 10px;
-  }
-  /*BackgroundPhoto*/
-  .background-photo img {
-    height: 400px;
-  }
-}
-@media only screen and (max-width: 430px) {
-  .section-title h4 {
     font-size: 18px;
   }
+
+  /*BackgroundPhoto*/
+  .background-photo {
+    flex-direction: column;
+  }
+  .background-photo img {
+    width: 100%;
+    height: 350px;
+  }
+
+  .homepage-testimonial p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .contact-button {
+    margin-top: -850px;
+  }
+
+  /*PRACTICE AREAS*/
+  .beige-box {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /*OUR TEAM*/
+  #our-attorneys .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .attorney-info {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .info > img {
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .view-bio p {
+    font-size: 20px;
+  }
+
 }
+
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 946px) {
+
+}
+@media only screen and (max-width: 850px) {
+
+}
+@media only screen and (max-width: 767px) {
+
+}
+@media only screen and (max-width: 710px) {
+
+}
+@media only screen and (max-width: 550px) {
+
+}
+@media only screen and (max-width: 500px) {
+
+}
+
