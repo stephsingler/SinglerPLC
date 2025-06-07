@@ -1,7 +1,7 @@
 import React from 'react';
 import state from '../state';
 import { useState } from 'react';
-import {FaChevronDown} from 'react-icons/lib/fa';
+import {FaChevronDown, FaChevronUp} from 'react-icons/lib/fa';
 import Header from "./Header";
 
 const Attorneys = () => {
@@ -19,33 +19,48 @@ const Attorneys = () => {
           <img src={attorney.avatar} alt="Attorney picture" />
             <div>
                 <h5>{attorney.name}</h5>
-                <h5>{attorney.position}</h5>
+                <p><strong>{attorney.position}</strong></p>
+                {attorney.admissions && (
+                    <p><strong>Admissions:</strong>&nbsp;{attorney.admissions}</p>
+                )}
+                {attorney.education && (
+                    <p><strong>Education:</strong>&nbsp;{attorney.education}</p>
+                )}
+                {attorney.practiceAreas && (
+                    <p><strong>Practice Areas:</strong>&nbsp;{attorney.practiceAreas}</p>
+                )}
+                {attorney.significantAwards && (
+                    <p><strong>Awards:</strong>&nbsp;{attorney.significantAwards}</p>
+                )}
+                {attorney.languages && (
+                    <p><strong>Languages:</strong>&nbsp;{attorney.languages}</p>
+                )}
                 <div className="view-bio" onClick={e => {
                     setSelected(attorney.id );
                     setIsOpen (!isOpen);
                 }}>
                     <p>View Bio</p>
-                    <FaChevronDown/>
+                    {isOpen ? <FaChevronUp/> : <FaChevronDown/>}
                 </div>
 
                 { selected === attorney.id && isOpen &&
                 <div className="attorney-bio">
                     <p>{attorney.bio}</p>
-                    {attorney.admissions && (
-                        <p><strong>Admissions:</strong>&nbsp;{attorney.admissions}</p>
-                    )}
-                    {attorney.education && (
-                        <p><strong>Education:</strong>&nbsp;{attorney.education}</p>
-                    )}
-                    {attorney.practiceAreas && (
-                        <p><strong>Practice Areas:</strong>&nbsp;{attorney.practiceAreas}</p>
-                    )}
-                    {attorney.significantAwards && (
-                        <p><strong>Awards:</strong>&nbsp;{attorney.significantAwards}</p>
-                    )}
-                    {attorney.languages && (
-                        <p><strong>Languages:</strong>&nbsp;{attorney.languages}</p>
-                    )}
+                    {/*{attorney.admissions && (*/}
+                    {/*    <p><strong>Admissions:</strong>&nbsp;{attorney.admissions}</p>*/}
+                    {/*)}*/}
+                    {/*{attorney.education && (*/}
+                    {/*    <p><strong>Education:</strong>&nbsp;{attorney.education}</p>*/}
+                    {/*)}*/}
+                    {/*{attorney.practiceAreas && (*/}
+                    {/*    <p><strong>Practice Areas:</strong>&nbsp;{attorney.practiceAreas}</p>*/}
+                    {/*)}*/}
+                    {/*{attorney.significantAwards && (*/}
+                    {/*    <p><strong>Awards:</strong>&nbsp;{attorney.significantAwards}</p>*/}
+                    {/*)}*/}
+                    {/*{attorney.languages && (*/}
+                    {/*    <p><strong>Languages:</strong>&nbsp;{attorney.languages}</p>*/}
+                    {/*)}*/}
                 </div>
                 }
             </div>

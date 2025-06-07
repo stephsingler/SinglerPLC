@@ -1,3 +1,8 @@
+import thia from './images/thia.jpg';
+import pete from './images/pete.jpg';
+import neema from './images/neema.jpeg';
+import laura from './images/laura.JPG';
+
 const state = {
   practiceAreas: [
     {
@@ -129,7 +134,7 @@ const state = {
       id: 0,
       name: "Pete Singler",
       position: "Primary Principal / Managing Attorney",
-      avatar: "../images/pete.jpg",
+      avatar: pete,
       bio: "Pete Singler is recognized as one of the country’s top franchise lawyers, devoting 35 years to representing franchisee associations, franchisees and small business owners.  He is member of Franchise Times’s “Hall of Fame”, a perennial “Legal Eagle” and a Martindale-Hubbell Client Distinction Award recipient (awarded to less than 1% of all lawyers). Above all, Pete values long-term relationships with his clients and helping them achieve long-term success.\n" +
           "\n" +
           "As summed up by a client, Pete is the “Perfect Lawyer. . .  Our company would not be as successful as it is without Pete guiding us and being in our corner.”\n" +
@@ -148,22 +153,9 @@ const state = {
     },
     {
       id: 1,
-      name: "Thia Brooks",
-      position: "Office Manager / Transactional support and Client Relations",
-      avatar: "",
-      bio: "Thia Brooks has been the heartbeat of Singler, PLC since 2007.   She is committed to\n" +
-          "improving and adopting new policies and administrative systems that enhance the company and\n" +
-          "that provide excellent customer service to our clients. Thia’s day-to-day duties include office administration & management, as well as maintaining financials and client billing. She is\n" +
-          "available to assist you with any questions you may have.\n" +
-          "\n" +
-          "When not at work, Thia enjoys boating, traveling, hiking and spending time with family and\n" +
-          "Friends.\n",
-    },
-    {
-      id: 2,
       name: "Neema P. Desai",
       position: "Of Counsel",
-      avatar: "",
+      avatar: neema,
       bio: "Neema P. Desai has a strong background in civil litigation and business counseling, with a mind towards anticipating, preventing and resolving disputes in a cost-effective manner.  She also has a deep understanding of healthcare law, wellness regulations, and business strategy, having worked at the intersection of law and the wellness industry.  Neema advises clients with an entrepreneurial perspective, having founded and serving as CEO of Kinnext, LLC, an online health and wellness platform.\n" +
           "Neema is known for her commitment to client advocacy, attention to detail, and ability to handle high-stakes legal matters with professionalism and integrity.\n",
       admissions: "Texas (#24067575), California (#262755), Illinois (#6294954), Washington (#43707)",
@@ -172,10 +164,10 @@ const state = {
       languages: "English, Gujarati, Hindi"
     },
     {
-      id: 3,
+      id: 2,
       name: "Laura L. Feil",
       position: "Paralegal",
-      avatar: "",
+      avatar: laura,
       bio: "Laura L. Feil combines her experience as a Colombian lawyer with an entrepreneurial mindset and enthusiasm for business law.  Laura’s unique background allows her to approach legal challenges with precision, creativity, and practical insights. \n" +
           "A dedicated mother who brings to our practice valuable bilingual capabilities and cross-cultural knowledge. She excels at supporting our team and clients with diverse legal matters, leveraging her international legal education and entrepreneurial instincts to deliver exceptional service. Laura is a native Spanish speaker, fully fluent and capable of drafting, negotiating and translating high-level business and legal documents, expanding our firm’s capabilities to handle international transactions and serving native Spanish-speaking clients. \n" +
           "Laura embodies our firm’s commitment to excellence through her attention to detail, integrity, dedication, and responsive focus on our client’s needs.\n",
@@ -183,6 +175,19 @@ const state = {
       education: "Universidad Santo Tomás, Bucaramanga, Colombia; Business Marketing Certificate, Santa Rosa Junior College; Business Entrepreneurship Certificate, Santa Rosa Junior College",
       practiceAreas: "Assists with all practice areas, with emphasis on litigation, trademark, transactions with involving Latin-American countries / constituents",
       languages: "Spanish, English"
+    },
+    {
+      id: 3,
+      name: "Thia Brooks",
+      position: "Office Manager / Transactional support and Client Relations",
+      avatar: thia,
+      bio: "Thia Brooks has been the heartbeat of Singler, PLC since 2007.   She is committed to\n" +
+          "improving and adopting new policies and administrative systems that enhance the company and\n" +
+          "that provide excellent customer service to our clients. Thia’s day-to-day duties include office administration & management, as well as maintaining financials and client billing. She is\n" +
+          "available to assist you with any questions you may have.\n" +
+          "\n" +
+          "When not at work, Thia enjoys boating, traveling, hiking and spending time with family and\n" +
+          "Friends.\n",
     }
   ],
   testimonials: [

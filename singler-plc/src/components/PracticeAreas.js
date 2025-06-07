@@ -2,7 +2,7 @@ import React from 'react';
 import state from '../state';
 import Header from "./Header";
 import { useState } from "react";
-import {FaPlus} from "react-icons/lib/fa";
+import {FaChevronDown, FaChevronUp } from "react-icons/lib/fa";
 
 
 const PracticeAreas = () => {
@@ -23,7 +23,7 @@ const PracticeAreas = () => {
                   setIsOpen (!isOpen);
               }}>
                   <h5>{area.title}</h5>
-                  <FaPlus/>
+                  {isOpen ? <FaChevronUp/> : <FaChevronDown/>}
               </div>
 
               { selected === area.id && isOpen &&

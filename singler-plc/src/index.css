@@ -211,10 +211,14 @@ div.practice-info {
 
 #our-attorneys .info {
   display: flex;
+  margin-bottom: 40px;
 }
 
 .info > img {
   margin-right: 20px;
+  width: 250px;
+  max-height: 350px;
+  height: fit-content;
 }
 .attorney-title {
   text-align: center;
@@ -226,19 +230,23 @@ div.practice-info {
 .attorney-info {
   width: 80%;
   margin-left: 10%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 div.view-bio  {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Raleway", sans-serif;
   color: #002D5C;
   cursor: pointer;
   display: flex;
   width: 200px;
+  align-items: center;
 }
 
 .view-bio p {
   margin-right: 10px;
+  margin-bottom: 0px;
 }
 
 /*Contact*/
