@@ -6,9 +6,9 @@ import austin from '../images/austin.jpg';
 const BackgroundPhoto = () => {
   return (
     <div className="background-photo">
-      <img src={golden} alt="Picture of Golden Gate" />
-      <img src={vineyard} alt="Picture of Vineyard" />
-      <img src={austin} alt="Picture of Austin" />
+      <img src={golden} alt="Golden Gate" />
+      <img src={vineyard} alt="Vineyard" />
+      <img src={austin} alt="Austin" />
     </div>
   );
 };

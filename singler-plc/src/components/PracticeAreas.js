@@ -8,11 +8,11 @@ import {FaChevronDown, FaChevronUp } from "react-icons/lib/fa";
 const PracticeAreas = () => {
   const [selected, setSelected] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
-  const toggle = (e, id) => {
-      if (e.target) {
-          setSelected(id === selected ? null : id);
-      }
-    };
+  // const toggle = (e, id) => {
+  //     if (e.target) {
+  //         setSelected(id === selected ? null : id);
+  //     }
+  //   };
   const renderPracticeAreas = () => {
     return (
       state.practiceAreas.map((area) => {

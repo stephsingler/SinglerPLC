@@ -7,11 +7,11 @@ import Header from "./Header";
 const Attorneys = () => {
     const [selected, setSelected] = useState(null);
     const [isOpen, setIsOpen] = useState(false);
-    const toggle = (e, id) => {
-        if (e.target) {
-            setSelected(id === selected ? null : id);
-        }
-    };
+    // const toggle = (e, id) => {
+    //     if (e.target) {
+    //         setSelected(id === selected ? null : id);
+    //     }
+    // };
   const renderAttorneys = () => {
     return state.ourAttorneys.map((attorney) => {
       return (
@@ -42,27 +42,6 @@ const Attorneys = () => {
                     <p>View Bio</p>
                     {isOpen ? <FaChevronUp/> : <FaChevronDown/>}
                 </div>
-
-                { selected === attorney.id && isOpen &&
-                <div className="attorney-bio">
-                    <p>{attorney.bio}</p>
-                    {/*{attorney.admissions && (*/}
-                    {/*    <p><strong>Admissions:</strong>&nbsp;{attorney.admissions}</p>*/}
-                    {/*)}*/}
-                    {/*{attorney.education && (*/}
-                    {/*    <p><strong>Education:</strong>&nbsp;{attorney.education}</p>*/}
-                    {/*)}*/}
-                    {/*{attorney.practiceAreas && (*/}
-                    {/*    <p><strong>Practice Areas:</strong>&nbsp;{attorney.practiceAreas}</p>*/}
-                    {/*)}*/}
-                    {/*{attorney.significantAwards && (*/}
-                    {/*    <p><strong>Awards:</strong>&nbsp;{attorney.significantAwards}</p>*/}
-                    {/*)}*/}
-                    {/*{attorney.languages && (*/}
-                    {/*    <p><strong>Languages:</strong>&nbsp;{attorney.languages}</p>*/}
-                    {/*)}*/}
-                </div>
-                }
             </div>
         </div>
       );
