@@ -8,7 +8,7 @@ const BackgroundPhoto = () => {
     <div className="background-photo">
       <img src={golden} alt="Golden Gate" />
       <img src={vineyard} alt="Vineyard" />
-      <img src={austin} alt="Austin" />
+      <img src={austin} alt="Austisn" />
     </div>
   );
 };
