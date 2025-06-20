@@ -42,6 +42,12 @@ const Attorneys = () => {
                     <p>View Bio</p>
                     {isOpen ? <FaChevronUp/> : <FaChevronDown/>}
                 </div>
+
+                { selected === attorney.id && isOpen &&
+                <div className="attorney-bio">
+                    <p>{attorney.bio}</p>
+                </div>
+                }
             </div>
         </div>
       );
