@@ -193,119 +193,93 @@ const state = {
   testimonials: [
     {
       id: 0,
-      author1: 'Don Meredith',
-      testimonial1: "Pete is by far the most well-versed and intelligently learned legal counsel I've ever worked with. He excells in one particular aspect: future consideration. He seems to have an ability to anticipate future actions and reactions on the part of the other parties to the matters at hand. That capacity provides added insight and ability to take more intelligent avenues as a client. I recommend his legal advice and counsel.",
-      title1: "Meredith's Culligan Water",
-      author2: 'Gregory Lamson',
-      testimonial2: "Perfect Lawyer.\n" +
-          "We have been fortunate to be represented by Singler Law for over 20 years for all matters, including acquisitions, sales, employment issues, franchise matters, general operations, real estate and corporate governance. Singler Law has blessed our company with sound moral reasoning, positive effective communication and always brings impeccable character. Singler law’s direction, which they have given, has always benefited our company financially and morally. They have been very helpful in all aspects of our ever-changing business. Singler Law is very helpful with all of our business and personnel needs. Their representation over the years has always been superior to any other company we have been involved with. Their understanding and work ethic is far superior. We feel that our company would not be as successful, if we did not have Singler law in our corner. If your looking for a firm that goes the extra mile and pays careful attention to details along the way, you need not look any further.",
-      title2: "Lamson Investment Corp."
+      author: 'Don Meredith',
+      testimonial: "I have known Pete for many years through work with our national dealers' organization. I have also hired both he and his firm for personal business consultation and legal advice. He is by far the most well-versed and intelligently learned legal counsel I've ever worked with. He excels in one particular aspect: future consideration. He seems to have an ability to anticipate future actions and reactions on the part of the other parties to the matters at hand. That capacity provides added insight and ability to take more intelligent avenues as a client. I recommend his legal advice and counsel.",
+      title: "President, Meredith's Culligan Water"
     },
     {
       id: 1,
-      author1: "G David Reynolds III",
-      testimonial1: "Pete's level of expertise excels beyond anyone else we have dealt with. In dealing with our franchisor, he seemed to be able to figure out all the scenarios that would be coming our way. He always guided us in the right direction.We highly recommend his legal advice.",
-      title1: "Reynold's H2O Plus Inc.",
-      author2: 'Mark Smith',
-      testimonial2: "We retained Pete to get a different view of a very complex set of issues we were involved in. His thought process, situational critique and ultimate set of directional ideas were the most effective and progressive we had seen. I strongly endorse Pete.",
-      title2: "Midas of Richmond",
-    }
-  ],
-  franchises: [
-    {
-      id: 0,
-      title: "Franchisee411",
-      link: "",
-      description: "An extensive information resource for Franchisees, Prospective Franchisees, and Franchisee Associations providing essential information and links to resources that can help them to successfully navigate their Franchise Relationship."
-    },
-    {
-      id: 1,
-      title: "The International Association of Franchisees and Dealers",
-      link: "https://www.franchise-info.ca/",
-      description: "An International trade association of franchisees and dealers."
+      author: 'Gregory Sinigiani',
+      title: 'President, Sinigiani Investment Corp. (Operator McDonalds restaurants)',
+      testimonial: 'Perfect lawyer. We have been fortunate to be represented by Singler Law for over 20 years for all matters, including acquisitions, sales, employment, franchise, real estate, and general business. Their representation has been far superior to any other firm we have ever used, or sat across the table from us. Our company would not be as successful as it is without Pete guiding us and being in our corner.'
     },
     {
       id: 2,
-      title: "The American Assocaiation of Franchisees and Dealers",
-      link: "https://www.aafd.org/aboutus.php",
-      description: "The AAFD is a national non-profit trade association representing the rights and interests of franchisees and independent dealers throughout the United States."
+      author: 'Chris Grimes',
+      title: 'Chairman of Heroes Connect',
+      testimonial: 'Singler Law has been an invaluable partner in bringing Heroes Connect to life. Navigating the complexities of establishing a veteran-focused nonprofit can be overwhelming, but Pete and his team made the process smooth and manageable. Pete is truly a master of the legal world—his expertise, professionalism, and unwavering support have been instrumental in ensuring our organization is set up for success. Even beyond the initial formation, Singler Law continues to provide us with the guidance we need to thrive. I highly recommend their services to any nonprofit looking for a knowledgeable and dedicated legal team!'
     },
     {
       id: 3,
-      title: "The American Franchisee Association",
-      link: "http://www.franchisee.org/",
-      description: "A national trade association of franchisees and dealers with over 16,000 members, ranging in size from one and two unit owners to larger multiple unit operators."
+      author: 'Scott Lamson',
+      title: 'CEO, Lamson Investment Corp',
+      testimonial: 'We have been fortunate to be represented by Singler Law for some 30 years for all matters, including acquisitions, sales, employment issues, franchise matters, general operations, real estate and corporate governance. Singler Law has blessed our company with sound moral reasoning, positive effective communication and always brings impeccable character. Singler law’s direction, which they have given, has always benefited our company financially and morally. They have been very helpful in all aspects of our ever-changing business. Singler Law is very helpful with all of our business and personnel needs. Their representation over the years has always been superior to any other company we have been involved with. Their understanding and work ethic is far superior. We feel that our company would not be as successful, if we did not have Singler law in our corner. If you’re looking for a firm that goes the extra mile and pays careful attention to details along the way, you need not look any further.'
     },
     {
       id: 4,
-      title: "California Restaurant Association",
-      link: "https://www.calrest.org/",
-      description: "The mission of the California Restaurant Association is to be the definitive voice of the California foodservice industry and to protect and promote its success. CRA serves as the indispensible resource for California restaurateurs."
+      author: 'Mark Smith',
+      title: 'President, Midas of Richmond',
+      testimonial: 'We retained Pete to get a different view of a very complex set of issues we were involved in. His thought process, situational critique and ultimate set of directional ideas were the most effective and progressive we had seen. I strongly endorse Pete.'
     },
     {
       id: 5,
-      title: "National Restaurant Association",
-      link: "https://www.restaurant.org/Home",
-      description: "The National Restaurant Association is a membership-based business association for the restaurant industry. With more than 37,000 members representing more than 175,000 restaurants, National Restaurant Association membership includes tableservice restaurants, quickservice outlets and cafeterias, as well as professionals and academic institutions associated with the industry."
-    }
-  ],
-  governments: [
-    {
-      id: 0,
-      title: "The U.S. Chamber of Commerce",
-      link: "https://www.uschamber.com/",
-      description: "The U.S. Chamber of Commerce is the world's largest business federation, representing nearly three million companies, 3,000 state and local chambers, 850 business associations and 87 American Chambers of Commerce abroad."
-    },
-    {
-      id: 1,
-      title: "The California Chamber of Commerce",
-      link: "https://www.calchamber.com/Pages/default.aspx",
-      description: ""
-    },
-    {
-      id: 2,
-      title: "The Federal Trade Commission",
-      link: "",
-      description: "Business Guidance"
-    },
-    {
-      id: 3,
-      title: "IRS Tax Info for Business",
-      link: "",
-      description: ""
-    },
-    {
-      id: 4,
-      title: "California State Government",
-      link: "http://www.ca.gov/",
-      description: ""
-    },
-    {
-      id: 5,
-      title: "California Courts",
-      link: "http://www.courts.ca.gov/",
-      description: ""
+      author: 'Dan Briggs',
+      title: 'President, Genesis Air, Inc.',
+      testimonial: 'Our company needed first-class representation fifteen years ago. We were very fortunate to find Pete. He helped us get through a strange time and won for us. He has been our corporation’s choice from that point until now. We have never been disappointed using Singler Law.'
     },
     {
       id: 6,
-      title: "California Secretary of State",
-      link: "http://www.ss.ca.gov/",
-      description: ""
+      author: 'G. David Reynolds, III',
+      title: 'Reynolds H20',
+      testimonial: 'Pete has been our legal counsel for many years. We met Pete through work with our national dealers\' organization. He has solved a number of our Franchise and HR issues. His level of expertise excels beyond anyone else we have dealt with. In dealing with our franchisor, he seemed to be able to figure out all the scenarios that would be coming our way. He always guided us in the right direction. We highly recommend his legal advice.'
+    },
+    {
+      id: 7,
+      author: 'Marian Tankersley',
+      title: '',
+      testimonial: 'We hired Pete to resolve a franchise issue with AFS (Collision on Wheels). Originally, we all thought it would be an easy lawsuit but unfortunately was not the case. Pete and his staff led us through this process, confident that we would prevail. Bryan and Pete were with us all the way. They never gave up on us, even through multiple trips to Detroit in the winter. We could not have had a better law firm at our backs.'
+    },
+    {
+      id: 8,
+      author: 'Mike Hebert',
+      title: 'President, Culligan Water Conditioning, Inc. Co-Founder, CDANA',
+      testimonial: 'Pete was hired by the Culligan Dealers Association of North America (CDANA), an association of independent businesspeople who operate their water treatment companies under a Culligan International franchise agreement. His purpose was to help a chosen group of dealers negotiate a new franchise agreement being offered by their franchisor. \n' +
+          ' \n' +
+          'Even though it took five long years to negotiate the new franchise, it was Pete\'s knowledge of franchising and expertise in negotiation that brought a successful result for the Culligan Dealer System. The new franchise gave the dealers equity ($10.5 million) within the parent Culligan company. Dealer Advisory Council (DAC) gained consent authority about issues that materially affected their business instead of just advisory input. With many other concessions made within the agreement by the franchisor, Pete\'s final statement was "Its The Best Damn Franchise Agreement Out There.” \n' +
+          ' \n' +
+          'Pete\'s ability to work with over 400 independent dealers along with the negotiating team (with very large egos) was monumental in itself. He was recognized and honored for his outstanding efforts at CDANA\'s Joint Annual Convention held in San Francisco in February 2006 with over 742 attendees.'
+    },
+    {
+      id: 9,
+      author: 'C.R. Hall',
+      title: "Hall's Culligan",
+      testimonial: 'Pete and his firm have been invaluable in navigating the relationship between our franchisee association (CDANA) and our franchisor (Culligan USA). I would highly recommend him as a franchise attorney and as a visionary regarding franchisee/franchisor interaction.'
+    },
+    {
+      id: 10,
+      author: 'Veronica Grimes',
+      title: 'Owner of Strative LLC',
+      testimonial: 'Singler Law was an absolute game-changer in helping me establish Strative LLC. From the very beginning, their team provided top-notch advising and support, making the entire process seamless. Pete, in particular, was incredibly professional, responsive, and knowledgeable. He answered all my questions with clarity and ensured that every step—from legal structuring to paperwork—was handled efficiently. Thanks to Singler Law, I was able to launch my business with confidence, knowing I had a strong legal foundation. I highly recommend their services to any entrepreneur looking for expert guidance!'
+    },
+    {
+      id: 11,
+      author: 'Bret Avlakeotes',
+      title: 'Senior Pastor, Spring Hills Community Church',
+      testimonial: 'Our church has enjoyed a 30-year relationship with the Singler law firm.  Pete guided us through complex bond financing, helped us with a variety of contracts  and leases, and most importantly, was responsible for helping us obtain a use permit for our current church property in Sonoma County. The relationship we have shared over the years has helped our church accomplish its goals and stay on mission. The relationship has been invaluable.'
+    },
+    {
+      id: 12,
+      author: 'Linnea Hedgecock',
+      title: 'Pastor of Administration, Crossroads Church of Fremont',
+      testimonial: 'We Cannot Recommend Singler Law Highly Enough!!\n' +
+          'We were referred to Pete Singler many years ago by our finance bond originator, as we needed a securities lawyer to help us through that complex process, and he helped us secure financing to construct our new church facility.  Pete also had extensive experience with construction contracts, and he guided us through that process as well.  Unfortunately, the relationship with the general contractor soured, and we had to replace them to finish the project. Pete’s firm guided us through that very long and arduous process as well, and we eventually ended up in litigation with the original contractor.    Pete was extremely knowledgeable, available, and strategic, but always with the goal of a resolution that would allow us to get on with our passion for being a church family that cared about our community.  Since then, Pete has helped us with other legal issues, including the legal merger with another local church, ECHO.Church.  Because of Pete’s knowledge, strategic ability, interpersonal skills, empathy, and honest risk assessment, we wouldn’t consider using any law firm other than Singler Law.'
+    },
+    {
+      id:  13,
+      author: 'Jana Rojas',
+      title: 'Napa Second Generation, Inc. Rojas Vineyard and Winery, LLC',
+      testimonial: 'Peter and his team helped us to quickly obtain an attachment order against a customer with an extensive list of unpaid invoices to secure the amount owed to us. He immediately jumped into work-mode when we came to him with our complaint and worked tirelessly until the money was in our account. Peter drafted management and farm labor contracting agreements for us that are very easy to use and us, clearly define our services and protect us from payment and other issues. He has also set us up with easy-to-understand grape purchase and sale agreements. Peter has been very helpful with other customer and contractor/employment related manners as well. We are very appreciative of his expertise and determination.'
     }
   ],
-  legal: [
-    {
-      id: 0,
-      title: "Martindale-Hubbell",
-      link: "https://www.martindale.com/",
-      description: "A research source for information about attorneys and law firms around the world."
-    },
-    {
-      id: 1,
-      title: "The State Bar of California",
-      link: "http://www.calbar.ca.gov/",
-      description: ""
-    },
-  ]
-}
+};
 export default state;

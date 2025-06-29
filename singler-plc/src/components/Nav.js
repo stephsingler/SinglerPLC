@@ -20,11 +20,11 @@ const Nav = () => {
             OUR TEAM
           </Link>
         </li>
-        {/*<li>*/}
-        {/*  <Link to="/resources">*/}
-        {/*    RESOURCES*/}
-        {/*  </Link>*/}
-        {/*</li>*/}
+        <li>
+          <Link to="/testimonials">
+            TESTIMONIALS
+          </Link>
+        </li>
       </ul>
     </div>
   );

@@ -16,7 +16,7 @@ const Attorneys = () => {
     return state.ourAttorneys.map((attorney) => {
       return (
         <div className="info" key={attorney.id}>
-          <img src={attorney.avatar} alt="Attorney picture" />
+          <img src={attorney.avatar} alt="Attorney" />
             <div>
                 <h5>{attorney.name}</h5>
                 <p><strong>{attorney.position}</strong></p>
