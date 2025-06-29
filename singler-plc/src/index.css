@@ -256,6 +256,19 @@ div.view-bio  {
   color: lightgray;
 }
 
+/*TESTIMONIALS PAGE*/
+
+.testimonials-page .container {
+  width: 55%;
+  background-color: #f2f2f2;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
 /*MOBILE*/
 
 @media only screen and (max-width: 430px) {
@@ -263,6 +276,11 @@ div.view-bio  {
   .header > h1 a {
     font-size: 40px;
   }
+
+  .header {
+    padding-left: 20px;
+  }
+
   h1 {
     font-size: 20px;
   }
@@ -317,24 +335,11 @@ div.view-bio  {
     font-size: 20px;
   }
 
+  .testimonials-page .container {
+    width: 98%;
+  }
 }
 
-/*TESTIMONIALS PAGE*/
-
-.testimonials-page .container {
-  width: 55%;
-  background-color: #f2f2f2;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-.testimonials-page > div {
-  margin-top: 20px;
-}
 
 @media only screen and (max-width: 991px) {
 
