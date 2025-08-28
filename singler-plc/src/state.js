@@ -1,6 +1,5 @@
 import thia from './images/thia.jpg';
 import pete from './images/pete.jpg';
-import neema from './images/neema.jpeg';
 import laura from './images/laura.JPG';
 
 const state = {
@@ -150,18 +149,6 @@ const state = {
       education: "University of Pennsylvania Law School / Wharton (J.D. 1990); Pepperdine University (B.A. Political Science, B.A. Philosophy, Outstanding Graduate, Humanities, 1982)",
       practiceAreas: "Business Advancement and Strategic Planning, Franchise & Distribution, Restaurant, Entity Formation / Structuring, Real Estate / Leasing, Construction, Finance, Sales and Acquisitions, Negotiations / Mediation, Winery / Vineyard Management, Church & Non-Profit Organizations",
       significantAwards: "Franchise Times Halls of Fame, Martindale-Hubbell Distinguished Client"
-    },
-    {
-      id: 1,
-      name: "Neema P. Desai",
-      position: "Of Counsel",
-      avatar: neema,
-      bio: "Neema P. Desai has a strong background in civil litigation and business counseling, with a mind towards anticipating, preventing and resolving disputes in a cost-effective manner.  She also has a deep understanding of healthcare law, wellness regulations, and business strategy, having worked at the intersection of law and the wellness industry.  Neema advises clients with an entrepreneurial perspective, having founded and serving as CEO of Kinnext, LLC, an online health and wellness platform.\n" +
-          "Neema is known for her commitment to client advocacy, attention to detail, and ability to handle high-stakes legal matters with professionalism and integrity.\n",
-      admissions: "Texas (#24067575), California (#262755), Illinois (#6294954), Washington (#43707)",
-      education: "John Marshall School of Law (J.D. 2007), Cal State Fullerton (B.A. Political Science, 2000)",
-      practiceAreas: "Commercial Litigation, Contracts, Real Estate, Healthcare/Wellness",
-      languages: "English, Gujarati, Hindi"
     },
     {
       id: 2,
