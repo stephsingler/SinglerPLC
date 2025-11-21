@@ -198,7 +198,7 @@ div.practice-info {
 .info > img {
   margin-right: 20px;
   width: 250px;
-  height: fit-content;
+  max-height: 320px;
 }
 .attorney-title {
   text-align: center;
@@ -329,12 +329,6 @@ div.view-bio  {
     margin-bottom: 20px;
     margin-right: 0;
     width: 100%;
-    height: 320px !important;
-    -webkit-height: 320px !important;
-    -moz-height: 320px !important;
-    max-height: 320px !important;
-    -webkit-max-height: 320px !important;
-    -moz-max-height: 320px !important;
   }
 
   .view-bio p {
