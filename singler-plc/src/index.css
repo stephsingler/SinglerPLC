@@ -329,8 +329,9 @@ div.view-bio  {
     margin-bottom: 20px;
     margin-right: 0;
     width: 100%;
-    height: auto;
-    max-height: 320px !important;
+    max-height: 320px;
+    -webkit-max-height: 320px;
+    -moz-max-height: 320px;
   }
 
   .view-bio p {
