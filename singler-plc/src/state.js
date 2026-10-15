@@ -1,6 +1,8 @@
 import thia from './images/thia.jpg';
 import pete from './images/pete.jpg';
 import laura from './images/laura.JPG';
+import shakti from './images/shakti.jpg';
+import amy from './images/amy.jpeg'
 
 const state = {
   practiceAreas: [
@@ -175,7 +177,49 @@ const state = {
           "\n" +
           "When not at work, Thia enjoys boating, traveling, hiking and spending time with family and\n" +
           "Friends.\n",
+    },
+    {
+      id: 4,
+      name: "Shakti Murthy",
+      position: "Counsel",
+      avatar: shakti,
+      bio: "Shakti plays an integral role in our appellate practice and complex matters, dispute\n" +
+          "resolution and analysis work. Her intelligence, creative insights and ability to think out of the\n" +
+          "box is a great asset for SPLC and our clients.\n" +
+          "She has also studied and practiced mediation extensively at the Asian Pacific American Dispute\n" +
+          "Resolution Center.\n" +
+          "Shakti takes pride in being a “three-speed bike.” She has carefully cultivated three different\n" +
+          "speeds. One, she is good at building relationships with people; Two, she is analytical with a\n" +
+          "solid intellect; she can understand, apply and explain complex legal issues. And third, when\n" +
+          "necessary she is comfortable handling difficult or confrontational situations.",
+      admissions: "California (#155194)",
+      education: "UC Berkeley Law School (Boalt Hall), Order of the Coif; Editor of the California\n" +
+          "Law Review; Moot Court award for Best Brief.",
+      practiceAreas: "Appellate practice; dispute resolution; complex litigation"
+    },
+    {
+      id: 5,
+      name: "Amy Nefouse",
+      position: "Counsel",
+      avatar: amy,
+      bio: "Amy Nefouse is a trusted legal advisor with extensive experience assisting clients with all\n" +
+          "aspects of real estate development in the residential, commercial, energy and infrastructure \n" +
+          "space. She is an expert in environmental permitting processes including California\n" +
+          "Environmental Quality Act (CEQA), National Environmental Policy Act (NEPA), local land use\n" +
+          "and planning laws, endangered species, and water quality requirements. Amy also has litigation\n" +
+          "experience in the California trial and courts of appeal, and federal district courts. Amy enjoys\n" +
+          "understanding her client’s goals and strategizing the best way to achieve them while minimizing\n" +
+          "risk and cost.",
+      admissions: "California (#159880); Indiana (#16410-49; retired)",
+      education: "Indiana University Mauer School of Law (JD 1991; Best Oralist Sherman Minton\n" +
+          "Moot Court 1990); Indiana University, Bloomington (BA 1986)",
+      practiceAreas: "Environmental (Planning, Permitting and Compliance); Land Use (Planning,\n" +
+          "Permitting and Litigation); Real Estate Development; Commercial Litigation; Political Reporting\n" +
+          "and Compliance",
+      significantAwards: "Martindale-Hubbell Peer Review Rated AV; Chambers USA: American&#39;s Leading\n" +
+          "Lawyers for Business (2008, 2009)"
     }
+
   ],
   testimonials: [
     {

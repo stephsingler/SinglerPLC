@@ -199,6 +199,7 @@ div.practice-info {
   margin-right: 20px;
   width: 250px;
   max-height: 320px;
+  height: fit-content;
 }
 .attorney-title {
   text-align: center;
