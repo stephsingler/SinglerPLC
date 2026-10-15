@@ -166,19 +166,6 @@ const state = {
       languages: "Spanish, English"
     },
     {
-      id: 3,
-      name: "Thia Brooks",
-      position: "Office Manager / Transactional support and Client Relations",
-      avatar: thia,
-      bio: "Thia Brooks has been the heartbeat of Singler, PLC since 2007.   She is committed to\n" +
-          "improving and adopting new policies and administrative systems that enhance the company and\n" +
-          "that provide excellent customer service to our clients. Thia’s day-to-day duties include office administration & management, as well as maintaining financials and client billing. She is\n" +
-          "available to assist you with any questions you may have.\n" +
-          "\n" +
-          "When not at work, Thia enjoys boating, traveling, hiking and spending time with family and\n" +
-          "Friends.\n",
-    },
-    {
       id: 4,
       name: "Shakti Murthy",
       position: "Counsel",
@@ -218,7 +205,20 @@ const state = {
           "and Compliance",
       significantAwards: "Martindale-Hubbell Peer Review Rated AV; Chambers USA: American&#39;s Leading\n" +
           "Lawyers for Business (2008, 2009)"
-    }
+    },
+    {
+      id: 3,
+      name: "Thia Brooks",
+      position: "Office Manager / Transactional support and Client Relations",
+      avatar: thia,
+      bio: "Thia Brooks has been the heartbeat of Singler, PLC since 2007.   She is committed to\n" +
+          "improving and adopting new policies and administrative systems that enhance the company and\n" +
+          "that provide excellent customer service to our clients. Thia’s day-to-day duties include office administration & management, as well as maintaining financials and client billing. She is\n" +
+          "available to assist you with any questions you may have.\n" +
+          "\n" +
+          "When not at work, Thia enjoys boating, traveling, hiking and spending time with family and\n" +
+          "Friends.\n",
+    },
 
   ],
   testimonials: [
